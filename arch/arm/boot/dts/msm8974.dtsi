@@ -2665,3 +2665,18 @@
 &gdsc_usb_hsic {
 	status = "ok";
 };
+
+&firmware {
+	android {
+		fstab {
+			android_lta_label: lta-label {
+				compatible = "android,lta-label";
+				dev = "/dev/block/platform/msm_sdcc.1/by-name/LTALabel";
+				type = "ext4";
+				mnt_flags = "ro,barrier=1";
+				fsmgr_flags = "nofail";
+				status = "ok";
+			};
+		};
+	};
+};

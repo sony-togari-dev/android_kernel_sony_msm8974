@@ -1092,6 +1092,16 @@ config MACH_SONY_TOGARI_ROW
 	  If you enable this config,
 	  Please use SONY Mobile source tree.
 
+config MACH_SONY_TOGARI_WINDY
+	depends on ARCH_MSM8974
+	select MACH_SONY_RHINE
+	bool "Sony Mobile Togari Windy"
+	help
+	  Support for the SONY Mobile Togari Windy device.
+	  It is based on QCOM APQ8074 chipset.
+	  If you enable this config,
+	  Please use SONY Mobile source tree.
+
 config MACH_SONY_HONAMI_ROW
 	depends on ARCH_MSM8974
 	select MACH_SONY_RHINE

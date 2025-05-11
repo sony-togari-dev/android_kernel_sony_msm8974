@@ -63,6 +63,8 @@ endif
    dtb-$(CONFIG_MACH_SONY_TOGARI_ROW)	+= msm8974-v1-rhine_togari_row.dtb
    dtb-$(CONFIG_MACH_SONY_TOGARI_ROW)	+= msm8974-v2.0-1-rhine_togari_row.dtb
    dtb-$(CONFIG_MACH_SONY_TOGARI_ROW)	+= msm8974-v2.2-rhine_togari_row.dtb
+   dtb-$(CONFIG_MACH_SONY_TOGARI_WINDY)	+= apq8074-v2.0-1-rhine_togari_windy.dtb
+   dtb-$(CONFIG_MACH_SONY_TOGARI_WINDY)	+= apq8074-v2.2-rhine_togari_windy.dtb
    dtb-$(CONFIG_MACH_SONY_AMAMI_ROW)	+= msm8974-v2.0-1-rhine_amami_row.dtb
    dtb-$(CONFIG_MACH_SONY_AMAMI_ROW)	+= msm8974-v2.2-rhine_amami_row.dtb
 
